@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-filename = 'filename.pkl'
+filename = 'decision_tree_model.pkl'
 loaded_model = joblib.load(open(filename, 'rb'))
 
 # Define the correct column names
